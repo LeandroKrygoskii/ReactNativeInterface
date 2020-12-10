@@ -44,16 +44,16 @@ export default function PaginaPrincipal(){
                  
                        <View style={{flexDirection:'row' , justifyContent:'space-around'}}>
                            <Tenis img={require('../../images/1.jpg')} custo="R$100,99" onClick={()=>navigation.navigate('PaginaDetalhes')}>
-                               Piá arteiro
+                             Nike1
                            </Tenis>
                            <Tenis img={require('../../images/2.jpg')} custo="R$200,99" onClick={()=>navigation.navigate('PaginaDetalhes')}>
-                             Feito por Chineses
+                              Nike2
                            </Tenis>
                        </View>
 
                        <View style={{flexDirection:'row' , justifyContent:'space-around'}}>
                            <Tenis img={require('../../images/3.png')} custo="R$300,99" onClick={()=>navigation.navigate('PaginaDetalhes')}>
-                               Nike Air Max
+                               Nike Air 
                            </Tenis>
                            
                            <Tenis img={require('../../images/4.png')} custo="R$500,99" onClick={()=>navigation.navigate('PaginaDetalhes')}>
